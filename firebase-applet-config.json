@@ -1,10 +1,17 @@
-{
-  "projectId": "remixed-project-id",
-  "appId": "remixed-app-id",
-  "apiKey": "remixed-api-key",
-  "authDomain": "remixed-auth-domain",
-  "firestoreDatabaseId": "remixed-firestore-database-id",
-  "storageBucket": "remixed-storage-bucket",
-  "messagingSenderId": "remixed-messaging-sender-id",
-  "measurementId": "remixed-measurement-id"
-}
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD4OEpv0t1yFIR_OVTUgByblK4DYlgEAOg",
+  authDomain: "studio-6621726788-9a225.firebaseapp.com",
+  projectId: "studio-6621726788-9a225",
+  storageBucket: "studio-6621726788-9a225.firebasestorage.app",
+  messagingSenderId: "781384374454",
+  appId: "1:781384374454:web:48871e29e6dfd4e6a46e17"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
